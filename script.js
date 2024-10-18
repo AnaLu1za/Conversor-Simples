@@ -22,3 +22,10 @@ document.getElementById('currency-form').addEventListener('submit', function(eve
         `${amount} ${fromCurrency} = ${convertedAmount} ${toCurrency}`;
 });
 
+document.getElementById('reset').addEventListener('click', function() {
+    document.getElementById('amount').value = '';
+    document.getElementById('from-currency').selectedIndex = 0;
+    document.getElementById('to-currency').selectedIndex = 0;
+    document.getElementById('result').textContent = '';
+});
+
