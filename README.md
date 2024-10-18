@@ -89,7 +89,7 @@ O projeto consiste em um aplicativo web simples e intuitivo que permite aos usu√
 
 
 ## Autores
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/140712280?v=4" width=115><br><sub>Fellipe Zanin</sub>](https://github.com/Fell1pe) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/140712281?v=4" width=115><br><sub>Ana Luiza</sub>](https://github.com/AnaLu1za) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/140712298?v=4" width=115><br><sub>Kleyverson Sampaio</sub>](https://github.com/KleyversonO) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/140712345?v=4" width=115><br><sub>Rafael Mastellini</sub>](https://github.com/SouzaRafael7) |
-| :---: | :---: | :---: | :---: |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/140712280?v=4" width=115><br><sub>Fellipe Zanin</sub>](https://github.com/Fell1pe) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/140712281?v=4" width=115><br><sub>Ana Luiza</sub>](https://github.com/AnaLu1za) |
+| :---: | :---: | 
 
 [<code><img height="32" src="https://t.ctcdn.com.br/IwwDh-BajTE4ZwE4zuIcvz9Q2ZY=/i490027.jpeg" alt="Linkedin"/></code>](https://www.linkedin.com/posts/ana-luiza-santos-a5032a2a2_projeto-acad%C3%AAmico-valida%C3%A7%C3%A3o-de-tela-de-activity-7189273725291163648-fbh6?utm_source=share&utm_medium=member_ios)
