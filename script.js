@@ -8,24 +8,31 @@ const exchangeRates = {
     AUD: { USD: 0.74, EUR: 0.63, BRL: 4.60, GBP: 0.56, JPY: 80, CAD: 1.06, AUD: 1 }
 };
 
+// Adiciona um ouvinte de eventos para o formulário de conversão
 document.getElementById('currency-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    
+    event.preventDefault(); // Impede o comportamento padrão do formulário
+
+    // Obtém os valores dos campos de entrada
     const amount = parseFloat(document.getElementById('amount').value);
     const fromCurrency = document.getElementById('from-currency').value;
     const toCurrency = document.getElementById('to-currency').value;
-    
+
+    // Obtém a taxa de câmbio correspondente
     const conversionRate = exchangeRates[fromCurrency][toCurrency];
+
+    // Realiza a conversão
     const convertedAmount = (amount * conversionRate).toFixed(2);
-    
+
+    // Exibe o resultado
     document.getElementById('result').textContent = 
         `${amount} ${fromCurrency} = ${convertedAmount} ${toCurrency}`;
 });
 
+// Adiciona um ouvinte de eventos para o botão de redefinição
 document.getElementById('reset').addEventListener('click', function() {
+    // Limpa os campos de entrada e o resultado
     document.getElementById('amount').value = '';
     document.getElementById('from-currency').selectedIndex = 0;
     document.getElementById('to-currency').selectedIndex = 0;
     document.getElementById('result').textContent = '';
 });
-
