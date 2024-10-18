@@ -2,6 +2,7 @@
 Este projeto web simples e intuitivo permite a conversão de diversas moedas de forma rápida e eficiente. A aplicação utiliza JavaScript para realizar os cálculos de conversão e o HTML/CSS para criar a interface do usuário.
 
 ## Introdução 
+O projeto "Conversor de Moedas" tem como objetivo principal fornecer uma ferramenta simples e eficiente para a conversão de valores monetários entre diversas moedas internacionais. Essa aplicação web permite que usuários realizem cálculos de conversão de forma rápida e precisa, facilitando tarefas como planejamento de viagens, acompanhamento de investimentos e gestão financeira pessoal.
 
 ## Índice
 * [Introdução](#introdução)
