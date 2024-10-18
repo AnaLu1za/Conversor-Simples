@@ -8,4 +8,17 @@ const exchangeRates = {
     AUD: { USD: 0.74, EUR: 0.63, BRL: 4.60, GBP: 0.56, JPY: 80, CAD: 1.06, AUD: 1 }
 };
 
+document.getElementById('currency-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    const amount = parseFloat(document.getElementById('amount').value);
+    const fromCurrency = document.getElementById('from-currency').value;
+    const toCurrency = document.getElementById('to-currency').value;
+    
+    const conversionRate = exchangeRates[fromCurrency][toCurrency];
+    const convertedAmount = (amount * conversionRate).toFixed(2);
+    
+    document.getElementById('result').textContent = 
+        `${amount} ${fromCurrency} = ${convertedAmount} ${toCurrency}`;
+});
 
